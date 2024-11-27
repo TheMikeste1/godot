@@ -4,4 +4,4 @@ scons precision=double platform=windows production=yes module_mono_enabled=yes
 
 bin/godot.windows.editor.double.x86_64.mono --headless --generate-mono-glue modules/mono/glue
 
-./modules/mono/build_scripts/build_assemblies.py --precision=double --godot-output-dir=./bin --godot-platform=windows
+python ./modules/mono/build_scripts/build_assemblies.py --precision=double --godot-output-dir=./bin --godot-platform=windows
